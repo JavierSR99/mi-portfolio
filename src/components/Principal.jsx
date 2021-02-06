@@ -1,17 +1,10 @@
 import React from 'react';
-import '../css/Principal.css';
+import Fotoperfil from './FotoPerfil';
 
 const Principal = () => {
     return (
-        <div id="divppal" className="container">
-            <div className="row">
-                <div className="col-12">
-                    <h1>HOLA</h1>
-                </div>
-            </div>
-            <div className="row">
-
-            </div>
+        <div className="container mt-5">
+            <Fotoperfil />
         </div>
     )
 }

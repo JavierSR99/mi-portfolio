@@ -1,21 +1,14 @@
 import Particles from 'react-particles-js';
 import './css/App.css';
-import { Switch, Route, Redirect, BrowserRouter } from 'react-router-dom';
 import Principal from './components/Principal';
-import ErrorPage from './components/ErrorPage';
+
+
 function App() {
 
   return (
     <div>
-    <div id="app">
-      <BrowserRouter>
-        <Switch>
-          <Route exact path="/" component={Principal} />
-          <Route exact path="/404" component={ErrorPage} />
-          <Redirect to="/404" />
-        </Switch>
-      </BrowserRouter>
-
+      <div id="app">
+        <Principal />
       </div>
       <Particles id="particles-js" 
       params={{

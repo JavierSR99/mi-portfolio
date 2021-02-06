@@ -1,9 +1,0 @@
-/* características del div central que aparece siempre en pantalla */
-#divppal {
-    position : absolute;
-    background-color: white;
-    -webkit-box-shadow: 11px -1px 47px 28px rgba(0,0,0,0.75);
-    -moz-box-shadow: 11px -1px 47px 28px rgba(0,0,0,0.75);
-    box-shadow: 11px -1px 47px 28px rgba(0,0,0,0.75);
-    border-radius: 50px;
-}

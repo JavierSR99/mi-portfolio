@@ -1,19 +1,19 @@
 import React from 'react';
-import javier from '../img/javier.jpg';
+import javier from '../img/javier1.jpg';
 import '../css/Perfil.css';
 
 const FotoPerfil = () => {
     return (
-        <div className="row">
-            <div className="col-6 col-sm-6">
+        <div className="row align-items-center" id="texto-perfill">
+            <div className="col-6 col-sm-4 d-flex justify-content-end">
                 <img src={javier} alt="foto_perfil" className="img-fluid" />
             </div>
-            <div className="col-6 col-sm-6">
-                <strong>
-                    <span>Hola,</span> <br/> soy Javier Sanz.
-                </strong> 
+            <div className="col-6 col-sm-8 ">
+                <span>
+                    Hola, <br/> soy Javier Sanz.
+                </span> 
                 <p>
-                    Un joven programador web que siempre está aprendiendo y buscando
+                    Un programador web que siempre está aprendiendo y buscando
                     nuevos retos.
                 </p>
             </div>

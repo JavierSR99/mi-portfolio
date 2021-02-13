@@ -10,3 +10,7 @@ img {
 span {
     font-size: 3vw;
 }
+
+span, p {
+    text-shadow : 0px 0px 20px #000000;
+}

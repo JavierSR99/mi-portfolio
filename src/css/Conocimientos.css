@@ -1,0 +1,15 @@
+/* css para componente Conocimientos */ 
+
+
+@media (min-width: 768px) {
+    #titletecno {
+        text-align: right;
+        padding-right : 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    #titletecno {
+        text-align: center;
+    }
+}

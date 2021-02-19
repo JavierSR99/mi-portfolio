@@ -15,12 +15,16 @@
 }
 
 /* diseño del div de tecnologías */
-#iconostecno {
+.iconostecno {
     background-color: white;
     -webkit-box-shadow: 0px 0px 45px 1px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 45px 1px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 45px 1px rgba(0,0,0,0.75);
     border-radius: 21px 21px 21px 21px;
+}
+
+#mglittle {
+    height: 300px;
 }
 
 
@@ -117,4 +121,72 @@
     #bootstrappng, #mysqlpng, #photopng, #phppng {
         margin-right : 15px;
     }
+}
+
+/* tamaño iconos en pantallas sm */
+@media (min-width: 576px) and (max-width : 767px) {
+    #iconostecno {
+        height: 70px;
+        padding-top: 5px;
+    }
+
+    #vuepng, #phppng, #bootstrappng {
+        max-width: 50px;
+    }
+
+    #reactpng {
+        max-width: 80px;
+    }
+
+    #photopng, #gitpng, #mysqlpng  {
+        max-width: 50px;
+    }
+
+    #phppng {
+        margin-right: 5px;
+    }
+
+    #bootstrappng, #mysqlpng {
+        margin-right: 10px;
+    }
+
+    #photopng {
+        margin-right: 15px;
+    }
+}
+
+
+@media (min-width : 576px) {
+    #mglittle {
+        display: none;
+    }
+}
+
+/* tamaño iconos en pantallas xs (móvil) */
+@media (max-width : 575px) {
+
+    #medbig {
+        display: none;
+    }
+
+    #iconostecno {
+        height: 300px;
+    }
+
+    #vuepng, #phppng, #bootstrappng {
+        max-width: 100px;
+    }
+
+    #reactpng {
+        max-width: 130px;
+    }
+
+    #photopng, #gitpng, #mysqlpng  {
+        max-width: 60px;
+    }
+
+    #vuepng {
+        margin-left : 10px;
+    }
+
 }

@@ -19,11 +19,11 @@ const Conocimientos = () => {
                 </div>
             </div>
 
-            <div className="row">
-                <div className="col-xl-2 col-md-1 col-lg-1">
+            <div className="row" id="medbig">
+                <div className="col-xl-2 col-md-1 col-lg-1 col-1">
 
                 </div>
-                <div className="col-12 col-md-10 col-lg-10 col-xl-8 border" id="iconostecno">
+                <div className="col-10 col-md-10 col-lg-10 col-xl-8 border iconostecno">
                     <img src={Vue} alt="vue.js" className="img-fluid" id="vuepng" />
                     <img src={Reactpng} alt="react.js" className="img-fluid" id="reactpng" />
                     <img src={PHP} alt="php" className="img-fluid" id="phppng" />
@@ -36,6 +36,21 @@ const Conocimientos = () => {
                 <div className="col-xl-2 col-lg-1 col-md-1">
 
                 </div>
+            </div>
+
+            <div className="row" id="mglittle">
+                <div className="col-1"></div>
+                <div className="col-10 iconostecno">
+                    <div className="row">
+                        <div className="col-6 border">
+                            
+                        </div>
+                        <div className="col-6 border">
+
+                        </div>
+                    </div>
+                </div>
+                <div className="col-1"></div>
             </div>
         </div>
     )

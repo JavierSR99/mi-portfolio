@@ -1,6 +1,6 @@
 /* css para componente Conocimientos */ 
 
-
+/* media queries para título de tecnologías */
 @media (min-width: 768px) {
     #titletecno {
         text-align: right;
@@ -11,5 +11,110 @@
 @media (max-width: 768px) {
     #titletecno {
         text-align: center;
+    }
+}
+
+/* diseño del div de tecnologías */
+#iconostecno {
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 45px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 45px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 45px 1px rgba(0,0,0,0.75);
+    border-radius: 21px 21px 21px 21px;
+}
+
+
+/* diseño de iconos en vista de más de 1200px (xl) */
+@media (min-width : 1200px) {
+
+    #iconostecno {
+        height: 100px;
+    }
+
+    #vuepng, #phppng, #bootstrappng {
+        max-width: 100px;
+    }
+
+    #reactpng {
+        max-width: 120px;
+    }
+
+    #photopng, #gitpng, #mysqlpng  {
+        max-width: 80px;
+    }
+
+    #phppng, #bootstrappng {
+        margin-right: 10px;
+    }
+
+    #mysqlpng, #photopng {
+        margin-right: 15px;
+    }
+
+    #gitpng {
+        margin-left: 5px;
+    }
+}
+
+/* tamaño iconos en pantallas lg */
+@media (min-width: 992px) and (max-width : 1199px) {
+    #iconostecno {
+        height: 100px;
+    }
+
+    #vuepng, #phppng, #bootstrappng {
+        max-width: 100px;
+    }
+
+    #reactpng {
+        max-width: 120px;
+    }
+
+    #photopng, #gitpng, #mysqlpng  {
+        max-width: 80px;
+    }
+
+    #phppng, #bootstrappng {
+        margin-right: 15px;
+    }
+
+    #mysqlpng, #photopng {
+        margin-right: 20px;
+    }
+
+    #gitpng {
+        margin-left: 5px;
+    }
+
+    #vuepng {
+        margin-left: 10px;
+    }
+}
+
+
+/* tamaño iconos en pantallas md */
+@media (min-width: 768px) and (max-width : 991px) {
+    #iconostecno {
+        height: 80px;
+    }
+
+    #vuepng, #phppng, #bootstrappng {
+        max-width: 70px;
+    }
+
+    #reactpng {
+        max-width: 90px;
+    }
+
+    #photopng, #gitpng, #mysqlpng  {
+        max-width: 60px;
+    }
+
+    #vuepng {
+        margin-left: 15px;
+    }
+
+    #bootstrappng, #mysqlpng, #photopng, #phppng {
+        margin-right : 15px;
     }
 }

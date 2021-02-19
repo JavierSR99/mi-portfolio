@@ -6,7 +6,7 @@ const FotoPerfil = () => {
     return (
         <div className="row align-items-center" id="texto-perfill">
             <div className="col-6 col-sm-4 d-flex justify-content-end">
-                <img src={javier} alt="foto_perfil" className="img-fluid" />
+                <img src={javier} alt="foto_perfil" className="img-fluid" id="javier" />
             </div>
             <div className="col-6 col-sm-8 ">
                 <span>

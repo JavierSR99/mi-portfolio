@@ -42,11 +42,32 @@ const Conocimientos = () => {
                 <div className="col-1"></div>
                 <div className="col-10 iconostecno">
                     <div className="row">
-                        <div className="col-6 border">
-                            
+                        <div className="col-6">
+                            <img src={Vue} alt="vue.js" className="img-fluid mx-auto d-block" id="vuepng" />
                         </div>
-                        <div className="col-6 border">
-
+                        <div className="col-6">
+                            <img src={Reactpng} alt="react.js" className="img-fluid mx-auto d-block" id="reactpng" />
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-6">
+                            <img src={PHP} alt="php" className="img-fluid mx-auto d-block" id="phppng" />
+                        </div>
+                        <div className="col-6">
+                            <img src={Bootstrapng} alt="bootstrap" className="img-fluid mx-auto d-block" id="bootstrappng" />
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-6">
+                            <img src={Photoshop} alt="photoshop" className="img-fluid mx-auto d-block" id="photopng" />
+                        </div>
+                        <div className="col-6">
+                            <img src={Git} alt="git" className="img-fluid mx-auto d-block" id="gitpng" />
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-12">
+                            <img src={MySQL} alt="mysql" className="img-fluid mx-auto d-block" id="mysqlpng" />
                         </div>
                     </div>
                 </div>

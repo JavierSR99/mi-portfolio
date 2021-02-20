@@ -1,0 +1,17 @@
+/* media queries para título de tecnologías */
+@media (min-width: 768px) {
+    #titlesobremi {
+        text-align: right;
+        padding-right : 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    #titlesobremi {
+        text-align: center;
+    }
+
+    #sobremippal {
+        padding-top: 40px;
+    }
+}

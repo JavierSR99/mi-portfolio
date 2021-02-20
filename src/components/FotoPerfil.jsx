@@ -3,6 +3,7 @@ import javier from '../img/javier1.jpg';
 import '../css/Perfil.css';
 
 const FotoPerfil = () => {
+
     return (
         <div className="row align-items-center" id="texto-perfill">
             <div className="col-6 col-sm-4 d-flex justify-content-end">

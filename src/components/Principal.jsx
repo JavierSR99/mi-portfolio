@@ -1,6 +1,7 @@
 import React from 'react';
 import Conocimientos from './Conocimientos';
 import Fotoperfil from './FotoPerfil';
+import SobreMi from './SobreMi';
 
 const Principal = () => {
     return (
@@ -10,6 +11,9 @@ const Principal = () => {
             </div>
             <div className="row">
                 <Conocimientos />
+            </div>
+            <div className="row">
+                <SobreMi />
             </div>
         </div>
     )

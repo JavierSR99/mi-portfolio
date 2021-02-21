@@ -13,7 +13,7 @@ const FotoPerfil = () => {
                 <span>
                     Hola, <br/> soy Javier Sanz.
                 </span> 
-                <p>
+                <p id="textini">
                     Un programador web que siempre está aprendiendo y buscando
                     nuevos retos.
                 </p>

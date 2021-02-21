@@ -10,6 +10,7 @@ function App() {
       <div id="app">
         <Principal />
       </div>
+
       <Particles id="particles-js" 
       params={{
           "particles": {

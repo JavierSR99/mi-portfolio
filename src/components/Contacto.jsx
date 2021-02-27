@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/Contacto.css';
 import LinkedIn from '../img/linkedin.png';
+import IconContacto from '../icons/directorio-telefonico.png';
 
 const Contacto = () => {
     return (
@@ -8,7 +9,10 @@ const Contacto = () => {
             <div className="row mt-5">
                 <div className="col-2"></div>
                     <div className="col-sm-12 col-md-4" id="titlesobremi">
-                        <p className="h2 font-weight-bold">Contacto</p>
+                        <p className="h2 font-weight-bold">
+                            Contacto
+                            <img src={IconContacto} alt="icon-contacto" id="iconcontacto" />
+                        </p>
                     </div>
                     <div className="col-sm-12 col-md-8">
                 </div>

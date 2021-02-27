@@ -7,13 +7,18 @@ import Bootstrapng from '../img/bootstrap.png';
 import Photoshop from '../img/photoshop.png';
 import Git from '../img/git.png';
 import MySQL from '../img/mysql.png';
+import IconTecno from '../icons/biotecnologia.png';
 
 const Conocimientos = () => {
     return (
         <div>
             <div className="row mt-5">
+                <div className="col-md-2"></div>
                 <div className="col-sm-12 col-md-4" id="titletecno">
-                    <p className="h2 font-weight-bold">Tecnologías</p>
+                    <p className="h2 font-weight-bold">
+                        Tecnologías
+                        <img src={IconTecno} alt="icon-tecnologías" id="icontecno" />
+                    </p>
                 </div>
                 <div className="col-sm-12 col-md-8">
                 </div>

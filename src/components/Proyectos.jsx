@@ -1,12 +1,18 @@
 import React from 'react';
 import '../css/Proyectos.css';
+import IconProyecto from '../icons/project-management.png';
 
 const Proyectos = () => {
     return (
         <div>
             <div className="row mt-5 mb-3">
+                <div className="col-md-2"></div>
                 <div className="col-sm-12 col-md-4" id="titleproyectos">
-                    <p className="h2 font-weight-bold">Proyectos</p>
+                    <p className="h2 font-weight-bold">
+                        Proyectos
+                        <img src={IconProyecto} alt="icono-proyectos" id="iconoproject" />
+                    </p>
+                    
                 </div>
                 <div className="col-sm-12 col-md-8">
                 </div>
@@ -16,7 +22,7 @@ const Proyectos = () => {
                 <div className="col-1 col-md-2"></div>
 
                 
-                <div className=" col-md-3 border divproyecto">
+                <div className=" col-md-3 col-10 border divproyecto" id="firstproyect">
                         <a href="https://github.com/JavierSR99/FUT-STATS" target="_blank" rel="noreferrer">
                         <div className="row">
                             <div className="col-12">
@@ -36,9 +42,11 @@ const Proyectos = () => {
                         </a>
                 </div>
                 
-                <div className="col-2"></div>
+                <div className="col-1 col-md-2"></div>
 
-                <div className="col-md-3 border divproyecto">
+                <div className="col-1" id="desaparece"></div>
+
+                <div className="col-md-3 col-10 border divproyecto">
                     <a href="https://github.com/JavierSR99/Music-Shop-J-s-Zone" target="_blank"
                             rel="noreferrer">
                     <div className="row">

@@ -1,12 +1,6 @@
 /* css para componente Conocimientos */ 
 
-/* media queries para título de tecnologías */
-@media (min-width: 768px) {
-    #titletecno {
-        text-align: right;
-        padding-right : 40px;
-    }
-}
+
 
 @media (max-width: 768px) {
     #titletecno {
@@ -190,3 +184,23 @@
     }
 
 }
+
+@keyframes aparecerr {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+    }
+  
+    100% {
+      opacity: 1;
+      transform : scale(1);
+    }
+}
+
+#icontecno {
+    max-width: 50px;
+    padding-left: 10px;
+    animation-duration: 4s;
+    animation-name: aparecerr;
+}
+

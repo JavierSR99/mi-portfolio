@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/SobreMi.css';
+import IconSobreMi from '../icons/website.png';
 
 const SobreMi = () => {
     return (
@@ -7,7 +8,10 @@ const SobreMi = () => {
             <div className="row mt-5">
                 <div className="col-2"></div>
                 <div className="col-sm-12 col-md-4" id="titlesobremi">
-                    <p className="h2 font-weight-bold">Sobre Mí</p>
+                    <p className="h2 font-weight-bold">
+                        Sobre Mí
+                        <img src={IconSobreMi} alt="icon-sore-mi" id="iconsobremi" />
+                    </p>
                 </div>
                 <div className="col-sm-12 col-md-8">
                 </div>

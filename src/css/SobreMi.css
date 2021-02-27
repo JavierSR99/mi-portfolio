@@ -11,8 +11,9 @@
     }
 }
 
+
 span, p {
-    text-shadow : 0px 0px 30px #000000;
+    text-shadow : 0px 0px 20px #000000;
 }
 
 #textsobremi {
@@ -20,3 +21,27 @@ span, p {
     font-size: large;
 }
 
+@media (max-width : 700px) {
+    #textsobremi p {
+        font-size: small;
+    }
+}
+
+@keyframes aparecerr {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+    }
+  
+    100% {
+      opacity: 1;
+      transform : scale(1);
+    }
+}
+
+#iconsobremi {
+    max-width: 40px;
+    margin-left: 10px;
+    animation-duration: 4s;
+    animation-name: aparecerr;
+}

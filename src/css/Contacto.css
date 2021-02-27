@@ -10,3 +10,8 @@
     color: white;
     font-size: large;
 }
+
+#iconcontacto {
+    max-width: 40px;
+    margin-left: 10px;
+}

@@ -1,1 +1,12 @@
 /* css para componente Contacto */ 
+
+ #img-linkedin {
+    max-width: 20px;
+    padding-bottom: 5px;    
+}
+
+#enlacelinked {
+    text-decoration: underline;
+    color: white;
+    font-size: large;
+}

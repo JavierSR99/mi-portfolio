@@ -3,6 +3,7 @@ import Conocimientos from './Conocimientos';
 import Fotoperfil from './FotoPerfil';
 import SobreMi from './SobreMi';
 import Contacto from './Contacto';
+import Proyectos from './Proyectos';
 
 const Principal = () => {
     return (
@@ -16,6 +17,7 @@ const Principal = () => {
             
                 <SobreMi />
             
+                <Proyectos />
             
                 <Contacto />
             

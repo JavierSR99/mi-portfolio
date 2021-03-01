@@ -2,9 +2,12 @@
 
 #javier {
     border-radius: 60%;
-    /*-webkit-box-shadow: 4px 2px 25px 8px rgba(0,0,0,0.75);
+    -webkit-border-radius: 60%;
+    -moz-border-radius: 60%;
+    -khtml-border-radius: 60%; 
+   -webkit-box-shadow: 4px 2px 25px 8px rgba(0,0,0,0.75);
     -moz-box-shadow: 4px 2px 25px 8px rgba(0,0,0,0.75);
-    box-shadow: 4px 2px 25px 8px rgba(0,0,0,0.75); */
+    box-shadow: 4px 2px 25px 8px rgba(0,0,0,0.75); 
     max-width: 200px;
 }
 
@@ -16,7 +19,7 @@
 
 @media (max-width : 500px) {
     #javier {
-        max-width: 160px;
+        max-width: 140px;
     }
 }
 

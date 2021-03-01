@@ -19,9 +19,9 @@ const Contacto = () => {
             </div>
 
             <div className="row">
-                <div className="col-2"></div>
-                <div className="col-8">
-                    <p>
+                <div className="col-md-2 col-1"></div>
+                <div className="col-10 col-md-8">
+                    <p id="textocontacto">
                         Puedes escribirme y encontrar más información sobre mí en &nbsp;
                         <a href="https://www.linkedin.com/in/javier-sanz-roa-b30163198/"
                         target="_blank" rel="noreferrer" id="enlacelinked">

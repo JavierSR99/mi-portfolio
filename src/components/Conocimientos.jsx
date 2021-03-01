@@ -8,6 +8,7 @@ import Photoshop from '../img/photoshop.png';
 import Git from '../img/git.png';
 import MySQL from '../img/mysql.png';
 import IconTecno from '../icons/biotecnologia.png';
+import Java from '../img/java.png';
 
 const Conocimientos = () => {
     return (
@@ -36,6 +37,7 @@ const Conocimientos = () => {
                     <img src={MySQL} alt="mysql" className="img-fluid" id="mysqlpng" />
                     <img src={Photoshop} alt="photoshop" className="img-fluid" id="photopng" />
                     <img src={Git} alt="git" className="img-fluid" id="gitpng" />
+                    <img src={Java} alt="java" className="img-fluid" id="javapng" />
                     
                 </div>
                 <div className="col-xl-2 col-lg-1 col-md-1">
@@ -59,7 +61,8 @@ const Conocimientos = () => {
                             <img src={PHP} alt="php" className="img-fluid mx-auto d-block" id="phppng" />
                         </div>
                         <div className="col-6">
-                            <img src={Bootstrapng} alt="bootstrap" className="img-fluid mx-auto d-block" id="bootstrappng" />
+                            
+                            <img src={MySQL} alt="mysql" className="img-fluid mx-auto d-block" id="mysqlpng" />
                         </div>
                     </div>
                     <div className="row">
@@ -70,9 +73,9 @@ const Conocimientos = () => {
                             <img src={Git} alt="git" className="img-fluid mx-auto d-block" id="gitpng" />
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row mb-3">
                         <div className="col-12">
-                            <img src={MySQL} alt="mysql" className="img-fluid mx-auto d-block" id="mysqlpng" />
+                            <img src={Bootstrapng} alt="bootstrap" className="img-fluid mx-auto d-block" id="bootstrappng" />
                         </div>
                     </div>
                 </div>

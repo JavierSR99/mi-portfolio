@@ -27,7 +27,7 @@ const Proyectos = () => {
                         <div className="row">
                             <div className="col-12">
                                 
-                                    <p className="h4 font-weight-bold"> FUT STATS </p> 
+                                    <p className="h4 font-weight-bold namepro"> FUT STATS </p> 
                                 
                             </div>
                             <div className="col-12">
@@ -52,7 +52,7 @@ const Proyectos = () => {
                     <div className="row">
                         <div className="col-12">
                             
-                                <p className="h4 font-weight-bold"> J'S ZONE MUSIC SHOP </p>
+                                <p className="h4 font-weight-bold namepro"> J'S ZONE MUSIC SHOP </p>
                             
                         </div>
                         <div className="col-12">

@@ -5,6 +5,25 @@
     -webkit-box-shadow: 4px 2px 25px 8px rgba(0,0,0,0.75);
     -moz-box-shadow: 4px 2px 25px 8px rgba(0,0,0,0.75);
     box-shadow: 4px 2px 25px 8px rgba(0,0,0,0.75);
+    max-width: 200px;
+}
+
+@media (min-width : 1400px) {
+    #javier {
+        max-width: 250px;
+    }
+}
+
+@media (max-width : 500px) {
+    #javier {
+        max-width: 160px;
+    }
+}
+
+@media (min-width : 500px) and (max-width : 1400px) {
+    #javier {
+        max-width: 200px;
+    }
 }
 
 span {
@@ -13,7 +32,11 @@ span {
 
 @media (max-width : 576px) {
     span {
-        font-size: 5vw;
+        font-size: 7vw;
+    }
+
+    #textini {
+        font-size: 3vw!important;
     }
 }
 
@@ -22,7 +45,7 @@ span, p {
 }
 
 #textini {
-    text-decoration: underline;
+    font-size: 900;
 }
 
 

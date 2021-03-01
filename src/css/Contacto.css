@@ -15,3 +15,13 @@
     max-width: 40px;
     margin-left: 10px;
 }
+
+@media (max-width : 576px) {
+    #textocontacto {
+        font-size : 4vw;
+    }
+
+    #textocontacto a {
+        font-size : 5vw;
+    }
+}

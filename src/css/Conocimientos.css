@@ -213,7 +213,15 @@
 }
 
 @media (min-width : 1400px) {
-    #sveltepng {
+    #sveltepng, #reactpng, #vuepng, #phppng, #bootstrappng, #mysqlpng, #gitpng {
+        max-width: 100px;
+    }
+    
+    .placec {
+        place-content: center center;
+    }
+
+    /*#sveltepng {
         max-width: 70px;
         margin-left: 5px;
         margin-right : 10px;
@@ -229,5 +237,5 @@
     }
     #bootstrappng {
         max-width: 90px;
-    }
+    } */
 }

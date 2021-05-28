@@ -4,7 +4,6 @@ import Vue from '../img/vue.png';
 import Reactpng from '../img/react.png';
 import PHP from '../img/php.png';
 import Bootstrapng from '../img/bootstrap.png';
-import Photoshop from '../img/photoshop.png';
 import Git from '../img/git.png';
 import MySQL from '../img/mysql.png';
 import IconTecno from '../icons/biotecnologia.png';
@@ -31,14 +30,27 @@ const Conocimientos = () => {
                 </div>
                 <div className="col-10 col-md-10 col-lg-10 col-xl-8 border iconostecno">
                     
-                    <img src={Vue} alt="vue.js" className="img-fluid" id="vuepng" />
-                    <img src={Reactpng} alt="react.js" className="img-fluid" id="reactpng" />
-                    <img src={Svelte} alt="svelte" className="img-fluid" id="sveltepng" />
-                    <img src={PHP} alt="php" className="img-fluid" id="phppng" />
-                    <img src={Bootstrapng} alt="bootstrap" className="img-fluid" id="bootstrappng" />
-                    <img src={MySQL} alt="mysql" className="img-fluid" id="mysqlpng" />
-                    <img src={Git} alt="git" className="img-fluid" id="gitpng" />
-                    <img src={Photoshop} alt="photoshop" className="img-fluid" id="photopng" />
+                    <div className="row">
+                        <div className="col-2 d-grid placec">
+                            <img src={Vue} alt="vue.js" className="img-fluid" id="vuepng" />
+                        </div>
+                        <div className="col-2 d-grid placec">
+                            <img src={Reactpng} alt="react.js" className="img-fluid" id="reactpng" />
+                        </div>
+                        <div className="col-2 d-grid placec">
+                            <img src={Svelte} alt="svelte" className="img-fluid" id="sveltepng" />
+                        </div>
+                        <div className="col-2 d-grid placec">
+                            <img src={PHP} alt="php" className="img-fluid" id="phppng" />
+                        </div>
+                        <div className="col-2 d-grid placec">
+                            <img src={MySQL} alt="mysql" className="img-fluid" id="mysqlpng" />
+                        </div>
+                        <div className="col-2 d-grid placec">
+                            <img src={Git} alt="git" className="img-fluid" id="gitpng" />
+                        </div>
+                    </div>
+                    
                     
                     
                 </div>
@@ -69,7 +81,7 @@ const Conocimientos = () => {
                     </div>
                     <div className="row">
                         <div className="col-6">
-                            <img src={Photoshop} alt="photoshop" className="img-fluid mx-auto d-block" id="photopng" />
+                            <img src={Svelte} alt="svelte" className="img-fluid mx-auto d-block" id="sveltepng" />
                         </div>
                         <div className="col-6">
                             <img src={Git} alt="git" className="img-fluid mx-auto d-block" id="gitpng" />

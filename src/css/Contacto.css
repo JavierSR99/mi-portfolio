@@ -5,7 +5,11 @@
     padding-bottom: 5px;    
 }
 
-#enlacelinked {
+#img-youtube {
+    width: 40px;
+}
+
+#enlacelinked, #enlaceyoutube {
     text-decoration: underline;
     color: white;
     font-size: large;

@@ -34,7 +34,7 @@
     }
 
     #reactpng {
-        max-width: 120px;
+        max-width: 100px;
     }
 
     #photopng, #gitpng, #mysqlpng  {
@@ -47,10 +47,12 @@
 
     #mysqlpng, #photopng {
         margin-right: 15px;
+        margin-left : 15px;
     }
 
     #gitpng {
         margin-left: 5px;
+        margin-right : 20px;
     }
 }
 
@@ -205,15 +207,16 @@
 }
 
 @media (max-width : 1399px) {
-    #javapng {
+    #photopng {
         display: none;
     }
 }
 
 @media (min-width : 1400px) {
-    #javapng {
-        max-width: 80px;
-        margin-left: 20px;
+    #sveltepng {
+        max-width: 70px;
+        margin-left: 5px;
+        margin-right : 10px;
         padding-bottom: 5px;
     }
 

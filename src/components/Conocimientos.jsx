@@ -8,7 +8,7 @@ import Photoshop from '../img/photoshop.png';
 import Git from '../img/git.png';
 import MySQL from '../img/mysql.png';
 import IconTecno from '../icons/biotecnologia.png';
-import Java from '../img/java.png';
+import Svelte from '../img/svelte.png';
 
 const Conocimientos = () => {
     return (
@@ -30,14 +30,16 @@ const Conocimientos = () => {
 
                 </div>
                 <div className="col-10 col-md-10 col-lg-10 col-xl-8 border iconostecno">
+                    
                     <img src={Vue} alt="vue.js" className="img-fluid" id="vuepng" />
                     <img src={Reactpng} alt="react.js" className="img-fluid" id="reactpng" />
+                    <img src={Svelte} alt="svelte" className="img-fluid" id="sveltepng" />
                     <img src={PHP} alt="php" className="img-fluid" id="phppng" />
                     <img src={Bootstrapng} alt="bootstrap" className="img-fluid" id="bootstrappng" />
                     <img src={MySQL} alt="mysql" className="img-fluid" id="mysqlpng" />
-                    <img src={Photoshop} alt="photoshop" className="img-fluid" id="photopng" />
                     <img src={Git} alt="git" className="img-fluid" id="gitpng" />
-                    <img src={Java} alt="java" className="img-fluid" id="javapng" />
+                    <img src={Photoshop} alt="photoshop" className="img-fluid" id="photopng" />
+                    
                     
                 </div>
                 <div className="col-xl-2 col-lg-1 col-md-1">

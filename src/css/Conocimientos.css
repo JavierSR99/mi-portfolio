@@ -22,7 +22,7 @@
 }
 
 
-/* diseño de iconos en vista de más de 1200px (xl) */
+/* diseño de iconos en vista de más de 1200px (xl) 
 @media (min-width : 1200px) {
 
     #iconostecno {
@@ -54,7 +54,7 @@
         margin-left: 5px;
         margin-right : 20px;
     }
-}
+} */
 
 /* tamaño iconos en pantallas lg */
 @media (min-width: 992px) and (max-width : 1199px) {
@@ -117,7 +117,7 @@
     #bootstrappng, #mysqlpng, #photopng, #phppng {
         margin-right : 15px;
     }
-}
+} 
 
 /* tamaño iconos en pantallas sm */
 @media (min-width: 576px) and (max-width : 767px) {
@@ -206,13 +206,8 @@
     animation-name: aparecerr;
 }
 
-@media (max-width : 1399px) {
-    #photopng {
-        display: none;
-    }
-}
 
-@media (min-width : 1400px) {
+@media (min-width : 1200px) {
     #sveltepng, #reactpng, #vuepng, #phppng, #bootstrappng, #mysqlpng, #gitpng {
         max-width: 100px;
     }
@@ -220,22 +215,4 @@
     .placec {
         place-content: center center;
     }
-
-    /*#sveltepng {
-        max-width: 70px;
-        margin-left: 5px;
-        margin-right : 10px;
-        padding-bottom: 5px;
-    }
-
-    #mysqlpng {
-        margin-right: 30px;
-    }
-
-    #vuepng {
-        margin-left: 5px;
-    }
-    #bootstrappng {
-        max-width: 90px;
-    } */
 }

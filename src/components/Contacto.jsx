@@ -38,7 +38,7 @@ const Contacto = () => {
                 <div className="col-md-2 col-1"></div>
                 <div className="col-10 col-md-8">
                     <p id="textocontacto">
-                        También puedes ver los tutoriales de programación que subo en mi canal de &nbsp;
+                        También subo tutoriales de programación a mi canal de &nbsp;
                         <a href="https://www.linkedin.com/in/javier-sanz-roa-b30163198/"
                         target="_blank" rel="noreferrer" id="enlaceyoutube">
                             YouTube

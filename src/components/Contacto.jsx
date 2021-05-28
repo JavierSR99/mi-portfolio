@@ -39,7 +39,7 @@ const Contacto = () => {
                 <div className="col-10 col-md-8">
                     <p id="textocontacto">
                         También subo tutoriales de programación a mi canal de &nbsp;
-                        <a href="https://www.linkedin.com/in/javier-sanz-roa-b30163198/"
+                        <a href="https://www.youtube.com/channel/UCoyeVp_7W6PHbq9LTeR6XHg"
                         target="_blank" rel="noreferrer" id="enlaceyoutube">
                             YouTube
                              <img src={YouTube} alt="youtube" id="img-linkedin"/>

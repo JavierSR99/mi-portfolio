@@ -19,137 +19,11 @@
 
 #mglittle {
     height: 300px;
+    margin-bottom: 100px;
 }
 
 
-/* diseño de iconos en vista de más de 1200px (xl) 
-@media (min-width : 1200px) {
 
-    #iconostecno {
-        height: 100px;
-    }
-
-    #vuepng, #phppng, #bootstrappng {
-        max-width: 100px;
-    }
-
-    #reactpng {
-        max-width: 100px;
-    }
-
-    #photopng, #gitpng, #mysqlpng  {
-        max-width: 80px;
-    }
-
-    #phppng, #bootstrappng {
-        margin-right: 10px;
-    }
-
-    #mysqlpng, #photopng {
-        margin-right: 15px;
-        margin-left : 15px;
-    }
-
-    #gitpng {
-        margin-left: 5px;
-        margin-right : 20px;
-    }
-} */
-
-/* tamaño iconos en pantallas lg */
-@media (min-width: 992px) and (max-width : 1199px) {
-    #iconostecno {
-        height: 100px;
-    }
-
-    #vuepng, #phppng, #bootstrappng {
-        max-width: 100px;
-    }
-
-    #reactpng {
-        max-width: 120px;
-    }
-
-    #photopng, #gitpng, #mysqlpng  {
-        max-width: 80px;
-    }
-
-    #phppng, #bootstrappng {
-        margin-right: 15px;
-    }
-
-    #mysqlpng, #photopng {
-        margin-right: 20px;
-    }
-
-    #gitpng {
-        margin-left: 5px;
-    }
-
-    #vuepng {
-        margin-left: 10px;
-    }
-}
-
-
-/* tamaño iconos en pantallas md */
-@media (min-width: 768px) and (max-width : 991px) {
-    #iconostecno {
-        height: 80px;
-    }
-
-    #vuepng, #phppng, #bootstrappng {
-        max-width: 70px;
-    }
-
-    #reactpng {
-        max-width: 90px;
-    }
-
-    #photopng, #gitpng, #mysqlpng  {
-        max-width: 60px;
-    }
-
-    #vuepng {
-        margin-left: 15px;
-    }
-
-    #bootstrappng, #mysqlpng, #photopng, #phppng {
-        margin-right : 15px;
-    }
-} 
-
-/* tamaño iconos en pantallas sm */
-@media (min-width: 576px) and (max-width : 767px) {
-    #iconostecno {
-        height: 70px;
-        padding-top: 5px;
-    }
-
-    #vuepng, #phppng, #bootstrappng {
-        max-width: 50px;
-    }
-
-    #reactpng {
-        max-width: 80px;
-    }
-
-    #photopng, #gitpng, #mysqlpng  {
-        max-width: 50px;
-    }
-
-    #phppng {
-        margin-right: 5px;
-    }
-
-    #bootstrappng, #mysqlpng {
-        margin-right: 10px;
-    }
-
-    #photopng {
-        margin-right: 15px;
-    }
-}
 
 
 @media (min-width : 576px) {
@@ -165,24 +39,12 @@
         display: none;
     }
 
-    #iconostecno {
-        height: 250px;
-    }
-
-    #vuepng, #phppng, #bootstrappng {
+    #sveltepng, #reactpng, #vuepng, #phppng, #bootstrappng, #mysqlpng, #gitpng {
         max-width: 100px;
     }
-
-    #reactpng {
-        max-width: 130px;
-    }
-
-    #photopng, #gitpng, #mysqlpng  {
-        max-width: 80px;
-    }
-
-    #vuepng {
-        margin-left : 10px;
+    
+    .placec {
+        place-content: center center;
     }
 
 }
@@ -207,7 +69,7 @@
 }
 
 
-@media (min-width : 1200px) {
+@media (min-width : 575px) {
     #sveltepng, #reactpng, #vuepng, #phppng, #bootstrappng, #mysqlpng, #gitpng {
         max-width: 100px;
     }

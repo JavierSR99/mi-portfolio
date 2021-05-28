@@ -12,6 +12,7 @@ import Svelte from '../img/svelte.png';
 const Conocimientos = () => {
     return (
         <div>
+            { /* fila de título */ }
             <div className="row mt-5">
                 <div className="col-md-2"></div>
                 <div className="col-sm-12 col-md-4" id="titletecno">
@@ -24,6 +25,7 @@ const Conocimientos = () => {
                 </div>
             </div>
 
+            { /* fila de iconos en pantallas >1200px */ }
             <div className="row" id="medbig">
                 <div className="col-xl-2 col-md-1 col-lg-1 col-1">
 
@@ -32,22 +34,34 @@ const Conocimientos = () => {
                     
                     <div className="row">
                         <div className="col-2 d-grid placec">
-                            <img src={Vue} alt="vue.js" className="img-fluid" id="vuepng" />
+                            <acronym title="React.JS" >  
+                                <img src={Reactpng} alt="react.js" className="img-fluid" id="reactpng" />
+                            </acronym> 
                         </div>
                         <div className="col-2 d-grid placec">
-                            <img src={Reactpng} alt="react.js" className="img-fluid" id="reactpng" />
+                            <acronym title="Vue.JS">
+                                <img src={Vue} alt="vue.js" className="img-fluid" id="vuepng" />
+                            </acronym>
                         </div>
                         <div className="col-2 d-grid placec">
-                            <img src={Svelte} alt="svelte" className="img-fluid" id="sveltepng" />
+                            <acronym title="Svelte.JS">
+                                <img src={Svelte} alt="svelte" className="img-fluid" id="sveltepng" />
+                            </acronym>
                         </div>
                         <div className="col-2 d-grid placec">
-                            <img src={PHP} alt="php" className="img-fluid" id="phppng" />
+                            <acronym title="PHP">
+                                <img src={PHP} alt="php" className="img-fluid" id="phppng" />
+                            </acronym>
                         </div>
                         <div className="col-2 d-grid placec">
-                            <img src={MySQL} alt="mysql" className="img-fluid" id="mysqlpng" />
+                            <acronym title="MySQL">
+                                <img src={MySQL} alt="mysql" className="img-fluid" id="mysqlpng" />
+                            </acronym>
                         </div>
                         <div className="col-2 d-grid placec">
-                            <img src={Git} alt="git" className="img-fluid" id="gitpng" />
+                            <acronym title="Git">
+                                <img src={Git} alt="git" className="img-fluid" id="gitpng" />
+                            </acronym>
                         </div>
                     </div>
                     
@@ -59,6 +73,11 @@ const Conocimientos = () => {
                 </div>
             </div>
 
+            
+
+
+
+            { /* fila de iconos en smartphone */ }
             <div className="row" id="mglittle">
                 <div className="col-1"></div>
                 <div className="col-10 iconostecno">

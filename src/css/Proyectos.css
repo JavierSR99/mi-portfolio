@@ -1,35 +1,9 @@
 /* diseño para componente de proyectos */
 
-
-
-@media (max-width: 768px) {
-    #titleproyectos {
-        text-align: center;
-    }
-}
-
-.divproyecto {
-    -webkit-box-shadow: 0px 0px 45px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 45px 1px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 45px 1px rgba(0,0,0,0.75);
-    border-radius: 21px 21px 21px 21px;
-    background-image: url('../img/cosmic.jpg');
-    padding: 10px;
-}
-
-
-
-.divproyecto a {
-    text-decoration: none;
-    color: white;
-}
-
-
-
-.divproyecto:hover {
+.card:hover {
     -webkit-transform:scale(1.1);
     transform:scale(1.1);
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .textproyect {
@@ -50,6 +24,12 @@
     }
 }
 
+@media (max-width : 576px) {
+    #titleproyectos {
+        text-align: center;
+    }
+}
+
 #iconoproject {
     max-width: 40px;
     margin-left: 10px;
@@ -59,3 +39,33 @@
     text-decoration: underline;
 }
 
+.card-text, .card-header {
+    color: black;
+    text-shadow: none;
+}
+
+.card-header {
+    font-size: 1.5rem;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.card-img-top {
+    padding-top: 10px;
+    width: 170px;
+    align-self: center;
+}
+
+
+.githuba {
+    text-decoration: none;
+    color: cornflowerblue;
+    float: right;
+}
+
+
+.icogit {
+    width: 50px;
+}

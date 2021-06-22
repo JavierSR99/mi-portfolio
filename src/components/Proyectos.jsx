@@ -1,6 +1,9 @@
 import React from 'react';
 import '../css/Proyectos.css';
 import IconProyecto from '../icons/project-management.png';
+import FUTStats from '../img/FUT_STATS.png';
+import JSZone from '../img/js_zone.png';
+import GitHub from '../img/github.png';
 
 const Proyectos = () => {
     return (
@@ -22,49 +25,56 @@ const Proyectos = () => {
                 <div className="col-1 col-md-2"></div>
 
                 
-                <div className=" col-md-3 col-10 border divproyecto" id="firstproyect">
-                        <a href="https://github.com/JavierSR99/FUT-STATS" target="_blank" rel="noreferrer">
-                        <div className="row">
-                            <div className="col-12">
-                                
-                                    <p className="h4 font-weight-bold namepro"> FUT STATS </p> 
-                                
-                            </div>
-                            <div className="col-12">
-                                <p className="textproyect"> 
-                                    Una app web para visualizar estadísticas de jugadores de fútbol
-                                    que permite dejar valoraciones y comentarios entre usuarios.
-                                    Desarrollada en Vue.js (front) y PHP (back).
-                                </p>
-                            </div>
-                            
+                <div className=" col-md-3 col-10" id="firstproyect">
+
+                        <div className="card iconostecno" style={{width: 18 + 'rem'}}>
+                        <div className="card-header">
+                            FUT STATS
                         </div>
-                        </a>
-                </div>
+                            <img src={FUTStats} className="card-img-top" alt="FUT_STATS_img" />
+                            <div className="card-body">
+                                <p className="card-text">
+                                Una app web para visualizar estadísticas de jugadores de fútbol
+                                    que cuenta con un sistema de valoraciones 
+                                    y comentarios entre usuarios.
+                                    Desarrollada en Vue.js, PHP, MySQL y Vuetify.
+                                </p>
+                                <a href="https://github.com/JavierSR99/FUT-STATS" className="githuba" 
+                                    target="_blank" rel="noreferrer">
+                                    <img src={GitHub} alt="repositorio_github" className="icogit" />
+                                </a>
+                            </div>
+                        </div>
+                </div> 
+
+                
+
+                
                 
                 <div className="col-1 col-md-2"></div>
 
                 <div className="col-1" id="desaparece"></div>
 
-                <div className="col-md-3 col-10 border divproyecto">
-                    <a href="https://github.com/JavierSR99/Music-Shop-J-s-Zone" target="_blank"
-                            rel="noreferrer">
-                    <div className="row">
-                        <div className="col-12">
-                            
-                                <p className="h4 font-weight-bold namepro"> J'S ZONE MUSIC SHOP </p>
-                            
+                <div className=" col-md-3 col-10" id="firstproyect">
+
+                        <div className="card iconostecno" style={{width: 18 + 'rem'}}>
+                        <div className="card-header">
+                            J's Zone Music Shop
                         </div>
-                        <div className="col-12">
-                            <p className="textproyect"> 
-                                Tienda de CDs en la que se puede simular una compra por 
-                                saldo y visualizar categorías musicales. Desarrollada 
-                                íntegramente en PHP y MySQL.
-                            </p>
+                            <img src={JSZone} className="card-img-top" alt="FUT_STATS_img" />
+                            <div className="card-body">
+                                <p className="card-text">
+                                    Tienda de CDs en la que se puede simular una compra por 
+                                    saldo y visualizar categorías musicales. Desarrollada 
+                                    íntegramente en PHP y MySQL.
+                                </p>
+                                <a href="https://github.com/JavierSR99/Music-Shop-J-s-Zone" className="githuba" 
+                                    target="_blank" rel="noreferrer">
+                                    <img src={GitHub} alt="repositorio_github" className="icogit" />
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    </a>
-                </div>
+                </div> 
             </div>
         </div>
     )
